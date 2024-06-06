@@ -487,8 +487,7 @@ background-color: #404bbf;
 }
 .footer-form {
     display: flex;
-    flex-direction: row;
-    display: flex;
+
 }
 .footer-sub-text {
     font-weight: 500;
@@ -532,7 +531,11 @@ background-color: #404bbf;
     margin-left: 24px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-
+.btn-footer:hover,
+.btn-footer:focus {
+background-color: #404bbf;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .footer-icon {
     fill: #fff;
     margin-left: 16px;
@@ -587,7 +590,7 @@ background-color: #404bbf;
 .modal-close-icon:hover,
 .modal-close-icon:focus {
     fill: #fff;
-    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .modal-title {
     text-align: center;
@@ -599,9 +602,6 @@ background-color: #404bbf;
     text-align: center;
     color: #2e2f42;
     margin-bottom: 16px;
-}
-.modal-form {
-
 }
 .modal-input {
     width: 100%;
@@ -620,9 +620,6 @@ background-color: #404bbf;
     fill: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal-input::placeholder {
-
-}
 
 .modal-label {
     display: block;
@@ -637,7 +634,6 @@ background-color: #404bbf;
 }
 .modal-field-wrap {
     position: relative;
-
 }
 .modal-icon {
     fill: #2e2f42;
@@ -665,7 +661,6 @@ background-color: #404bbf;
     border-color: #4d5ae5;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     }
-
 .modal-text-checkbox {
 font-weight: 400;
     font-size: 12px;
@@ -691,11 +686,9 @@ font-weight: 400;
     fill: #f4f4fd;
     background-color: #404bbf;
 }
-
 .check-icon {
     fill: #f4f4fd;
 }
-
 .form-btn {
     font-weight: 500;
     font-size: 16px;
@@ -715,13 +708,17 @@ font-weight: 400;
     margin: 0 auto;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+.form-btn:hover,
+.form-btn:focus{
+background-color: #404bbf;
+transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .privacy-policy {
     line-height: 1.33;
     text-decoration: underline;
     text-decoration-skip-ink: none;
     color: #4d5ae5;
 }
-
 /* .is-open {
     opacity: 1;
     visibility: visible;
